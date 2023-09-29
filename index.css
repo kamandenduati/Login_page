@@ -1,0 +1,76 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+/*.Logo{
+  height:5.75rem;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+*/
+.container {
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.login-box {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(26, 107, 6, 0.1);
+  width: 400px;
+  align-items: center;
+}
+
+.remember-me{
+  margin: 10px 0;
+  text-align: left;
+}
+
+.Nairobi-logo img {
+  max-width: 100px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: #0dc322;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c4c414;
+}
+
+.link-container a {
+  text-decoration: none;
+  color: #0078d4;
+}
+
+.link-container span {
+  margin: 0 10px;
+}
